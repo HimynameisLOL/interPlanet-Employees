@@ -1,24 +1,24 @@
 {
-  "name": "interplanet",
-  "version": "5.1.1",
-  "type": "module",
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
-  },
+  "name": "interPlanet",
+  "version": "1.0.0",
+  "description": "A login for employees",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "format": "npx prettier . --write"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^2.0.1",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-basic-auth": "^1.2.1"
+    // List your production dependencies here
   },
   "devDependencies": {
-    "prettier": "3.2.4"
+    // List your development dependencies here
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT",
+  "author": "interPlanet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/himynameislol/interplanet-employees.git"
   }
 }
